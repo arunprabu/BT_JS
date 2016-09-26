@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="src/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="src/css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .sec-nav li a{
+            padding: 0px 30px !important; 
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">Advanced JS</a>
+                </li>
+                <li>
+                    <a href="#">Objects</a>
+                </li>
+                <li>
+                    <a href="#">Functions</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#">Invoking function</a></li>
+                        <li role="presentation"><a href="#">1. Named Function</a></li>
+                        <li role="presentation"><a href="#">Variable Hoisting</a></li>
+                        <li role="presentation"><a href="#">2. Anonymous Functions</a></li>
+                        <li role="presentation"><a href="#">3. IIFE</a></li>
+                        <li role="presentation"><a href="#">4. Assigning Fn to variable</a></li>
+                        <li role="presentation"><a href="#">5. Passing Fn's as args</a></li>
+                        <li role="presentation"><a href="#">6. Nested Fn/Inner Fn</a></li>
+                        <li role="presentation"><a href="#">7. Fn as Singleton Obj</a></li>
+                        <li role="presentation"><a href="#">8. Fn as Event Handlers</a></li>
+                        <li role="presentation"><a href="#">9. Overloading Functions</a></li>
+                        <li role="presentation"><a href="#">Functions as Objects</a></li>
+                        <li role="presentation"><a href="#">Arguments Objects</a></li>
+                        <li role="presentation"><a href="#">Recursion / loop</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Instantiating Objects</a>
+                </li>
+                <li>
+                    <a href="#">Closures</a>
+                </li>
+                <li>
+                    <a href="#">Fn Prototypes</a>
+                     <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#">Constructor</a></li>
+                        <li role="presentation"><a href="#">Inheritance</a></li>
+                        <li role="presentation"><a href="#">ES6 Classes</a></li>
+                        <li role="presentation"><a href="#">ES6 Inheritance</a></li>
+                     </ul>
+                </li>
+                <li>
+                    <a href="#">Modular JS</a>
+                </li>
+                <li>
+                    <a href="#">HTML DOM and BOM</a>
+                </li>
+                <li>
+                    <a href="#">Browser Caching</a>
+                </li>
+                <li>
+                    <a href="#">JS Testing with Jasmine</a>
+                </li>
+                <li>
+                    <a href="#">Async Communication</a>
+                </li>
+                <li>
+                    <a href="#">Cross-domain communication</a>
+                </li>
+                <li>
+                    <a href="#">JS in HTML5 Environment</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#">Storage API's</a></li>
+                        <li role="presentation"><a href="#">PostMessage API</a></li>
+                        <li role="presentation"><a href="#">Using Web Workers</a></li>
+                     </ul>
+                </li>
+                <li>
+                    <a href="#">Javascript in Production</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#" title="(render blocking, avoiding global variables, avoiding using window[], remove duplicate scripts )">Coding Practices </a></li>
+                        <li role="presentation"><a href="#">Minify JS</a></li>
+                        <li role="presentation"><a href="#">Minimize HTTP Req</a></li>
+                        <li role="presentation"><a href="#">Using CDN</a></li>
+                        <li role="presentation"><a href="#">Add Expires / cache ctrl header</a></li>
+                        <li role="presentation"><a href="#">GZip</a></li>
+                     </ul>
+                </li>
+                <li>
+                    <a href="#">History, Back Button, SEO</a>
+                </li>
+                <li>
+                    <a href="#">Patterns</a>
+                     <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#" title="">Namespaces </a></li>
+                        <li role="presentation"><a href="#">Service Locators </a></li>
+                        <li role="presentation"><a href="#">Dependency Injection</a></li>
+                        <li role="presentation"><a href="#">Inversion of Control</a></li>
+                        <li role="presentation"><a href="#">Msg'ing and Event Buses</a></li>
+                        <li role="presentation"><a href="#">Different Types of Events</a></li>
+                     </ul>
+                </li>
+                <li>
+                    <a href="#">jQuery Overview</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Simple Sidebar</h1>
+                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small
+                            screens, the page content will be pushed off canvas.</p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="src/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="src/js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</body>
+
+</html>
